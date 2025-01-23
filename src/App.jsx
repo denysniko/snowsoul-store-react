@@ -12,7 +12,7 @@ const App = () => {
 	useEffect(() => {
 		const getSnowboards = async () => {
 			try {
-				const res = await fetch('/snowboards.json')
+				const res = await fetch(`${import.meta.env.BASE_URL}snowboards.json`)
 				setSnowboards(await res.json())
 			} catch (error) {
 				console.log('Receipt error', error)
