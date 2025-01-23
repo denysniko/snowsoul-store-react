@@ -1,0 +1,40 @@
+@use '../../scss/variables' as *;
+
+.testimonials {
+	padding: 10rem 0rem;
+
+	@media (max-width: 1024px) {
+		padding: 8rem 0;
+	}
+
+	@media (max-width: 768px) {
+		padding: 6rem 0;
+	}
+
+	&__title {
+		@include title-style;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		gap: 1.25rem;
+
+		@media screen and (max-width: 768px) {
+			flex-direction: column;
+		}
+	}
+
+	&__item {
+		width: 100%;
+		border-radius: 1.5rem;
+		border: 1px solid $grey;
+		padding: 1.125rem;
+
+		&-title {
+			font-size: 1.125rem;
+			margin: 1.3rem 0 0.5rem;
+		}
+	}
+}

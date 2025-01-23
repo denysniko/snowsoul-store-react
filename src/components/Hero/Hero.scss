@@ -1,0 +1,80 @@
+@use '../../scss/variables' as *;
+
+.hero {
+	position: relative;
+	padding-top: 6rem;
+
+	&__container {
+		max-width: unset;
+	}
+
+	&__image {
+		img {
+			width: 100%;
+			height: 100vh;
+			border-radius: 2.5rem;
+			object-position: bottom;
+		}
+	}
+
+	&__wrapper {
+		display: grid;
+		position: relative;
+		z-index: 1;
+	}
+
+	&__content {
+		position: absolute;
+		padding: 2rem;
+		left: 0;
+		place-self: self-end;
+
+		@media (max-width: 576px) {
+			padding: 1.25rem;
+		}
+	}
+
+	&__title {
+		margin-bottom: 0.5rem;
+		color: $blue;
+		font-size: clamp(2rem, 1.3333rem + 3.3333vw, 4rem);
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+
+	&__description {
+		width: 700px;
+		line-height: 1.5rem;
+		font-size: clamp(0.875rem, 0.8333rem + 0.2083vw, 1rem);
+
+		@media (max-width: 1024px) {
+			width: 600px;
+		}
+
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+	}
+	&__btn {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border: 1px solid $black;
+		border-radius: 1rem;
+		padding: 0.75rem 2rem;
+		width: 150px;
+		height: 50px;
+		margin-top: 1.25rem;
+		margin-left: 6rem;
+		font-weight: 600;
+		font-size: 0.875rem;
+		text-transform: uppercase;
+		transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+		&:hover {
+			border: 1px solid $blue;
+		}
+		&:hover &-icon {
+			fill: $blue;
+		}
+	}
+}

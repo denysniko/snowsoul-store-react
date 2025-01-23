@@ -1,0 +1,27 @@
+$white: #f3f4f6;
+$black: #111111;
+$blue: #1d4ed8;
+$grey: #d1d5db;
+$black-order: #0f1012;
+
+@mixin title-style {
+	text-align: center;
+	font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+	font-weight: 500;
+	margin-bottom: 2rem;
+}
+
+@mixin list-style {
+	display: grid;
+	grid-template: 1fr / repeat(3, 1fr);
+	gap: 1.25rem;
+	place-items: center;
+
+	@media (max-width: 1024px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: 768px) {
+		grid-template-columns: 1fr;
+	}
+}

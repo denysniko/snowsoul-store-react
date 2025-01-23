@@ -1,0 +1,48 @@
+@use '../../scss/variables' as *;
+
+.about {
+	padding: 10rem 0;
+
+	@media (max-width: 1024px) {
+		padding: 8rem 0;
+	}
+
+	@media (max-width: 768px) {
+		padding: 6rem 0;
+	}
+
+	&__content {
+		display: grid;
+		grid-template: 1fr / repeat(2, 1fr);
+
+		@media (max-width: 768px) {
+			grid-template-columns: 1fr;
+			grid-auto-rows: auto;
+			gap: 0.5rem;
+		}
+	}
+
+	&__title {
+		font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+		font-weight: 500;
+		margin-bottom: 0.75rem;
+		color: $blue;
+	}
+
+	&__text {
+		line-height: 2.7rem;
+		font-size: clamp(1rem, 0.75rem + 1.25vw, 1.75rem);
+		letter-spacing: 0.03rem;
+
+		@media (max-width: 576px) {
+			line-height: 2rem;
+		}
+	}
+
+	&__text-right {
+		display: block;
+		text-align: right;
+		color: $blue;
+		font-weight: 500;
+	}
+}
