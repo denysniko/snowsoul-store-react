@@ -1,8 +1,8 @@
 // Hero
-import hero1xJpg from './img/hero@1x.jpg'
-import hero2xJpg from './img/hero@2x.jpg'
-import hero1xWebp from './img/hero@1x.webp'
-import hero2xWebp from './img/hero@2x.webp'
+import hero1xJpg from './hero@1x.jpg'
+import hero2xJpg from './hero@2x.jpg'
+import hero1xWebp from './hero@1x.webp'
+import hero2xWebp from './hero@2x.webp'
 
 export const heroImg = {
 	jpg: {
@@ -16,8 +16,8 @@ export const heroImg = {
 }
 
 // Testimonials
-import person1xJpg from './img/person@1x.jpg'
-import person2xJpg from './img/person@2x.jpg'
+import person1xJpg from './person@1x.jpg'
+import person2xJpg from './person@2x.jpg'
 
 export const testimonialsImg = {
 	jpg: {

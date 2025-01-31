@@ -1,5 +1,5 @@
 import Avatar from '@mui/material/Avatar'
-import { testimonialsImg } from '../../assets/img'
+import { testimonialsImg } from '../../assets/img.js'
 import './Testimonials.scss'
 
 export const Testimonials = () => {

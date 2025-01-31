@@ -3,12 +3,12 @@
 		"id": 1,
 		"img": {
 			"jpg": {
-				"1x": "assets/img/snowboard@1x.jpg",
-				"2x": "assets/img/snowboard@2x.jpg"
+				"1x": "./snowboard@1x.jpg",
+				"2x": "./snowboard@2x.jpg"
 			},
 			"webp": {
-				"1x": "assets/img/snowboard@1x.webp",
-				"2x": "assets/img/snowboard@2x.webp"
+				"1x": "./snowboard@1x.webp",
+				"2x": "./snowboard@2x.webp"
 			}
 		},
 		"name": "Snowboard 1",
@@ -18,12 +18,12 @@
 		"id": 2,
 		"img": {
 			"jpg": {
-				"1x": "assets/img/snowboard@1x.jpg",
-				"2x": "assets/img/snowboard@2x.jpg"
+				"1x": "./snowboard@1x.jpg",
+				"2x": "./snowboard@2x.jpg"
 			},
 			"webp": {
-				"1x": "assets/img/snowboard@1x.webp",
-				"2x": "assets/img/snowboard@2x.webp"
+				"1x": "./snowboard@1x.webp",
+				"2x": "./snowboard@2x.webp"
 			}
 		},
 		"name": "Snowboard 2",
@@ -33,12 +33,12 @@
 		"id": 3,
 		"img": {
 			"jpg": {
-				"1x": "assets/img/snowboard@1x.jpg",
-				"2x": "assets/img/snowboard@2x.jpg"
+				"1x": "./snowboard@1x.jpg",
+				"2x": "./snowboard@2x.jpg"
 			},
 			"webp": {
-				"1x": "assets/img/snowboard@1x.webp",
-				"2x": "assets/img/snowboard@2x.webp"
+				"1x": "./snowboard@1x.webp",
+				"2x": "./snowboard@2x.webp"
 			}
 		},
 		"name": "Snowboard 3",
@@ -48,12 +48,12 @@
 		"id": 4,
 		"img": {
 			"jpg": {
-				"1x": "assets/img/snowboard@1x.jpg",
-				"2x": "assets/img/snowboard@2x.jpg"
+				"1x": "./snowboard@1x.jpg",
+				"2x": "./snowboard@2x.jpg"
 			},
 			"webp": {
-				"1x": "assets/img/snowboard@1x.webp",
-				"2x": "assets/img/snowboard@2x.webp"
+				"1x": "./snowboard@1x.webp",
+				"2x": "./snowboard@2x.webp"
 			}
 		},
 		"name": "Snowboard 4",
@@ -63,12 +63,12 @@
 		"id": 5,
 		"img": {
 			"jpg": {
-				"1x": "assets/img/snowboard@1x.jpg",
-				"2x": "assets/img/snowboard@2x.jpg"
+				"1x": "./snowboard@1x.jpg",
+				"2x": "./snowboard@2x.jpg"
 			},
 			"webp": {
-				"1x": "assets/img/snowboard@1x.webp",
-				"2x": "assets/img/snowboard@2x.webp"
+				"1x": "./snowboard@1x.webp",
+				"2x": "./snowboard@2x.webp"
 			}
 		},
 		"name": "Snowboard 5",
@@ -78,12 +78,12 @@
 		"id": 6,
 		"img": {
 			"jpg": {
-				"1x": "assets/img/snowboard@1x.jpg",
-				"2x": "assets/img/snowboard@2x.jpg"
+				"1x": "./snowboard@1x.jpg",
+				"2x": "./snowboard@2x.jpg"
 			},
 			"webp": {
-				"1x": "assets/img/snowboard@1x.webp",
-				"2x": "assets/img/snowboard@2x.webp"
+				"1x": "./snowboard@1x.webp",
+				"2x": "./snowboard@2x.webp"
 			}
 		},
 		"name": "Snowboard 6",
@@ -93,12 +93,12 @@
 		"id": 7,
 		"img": {
 			"jpg": {
-				"1x": "assets/img/snowboard@1x.jpg",
-				"2x": "assets/img/snowboard@2x.jpg"
+				"1x": "./snowboard@1x.jpg",
+				"2x": "./snowboard@2x.jpg"
 			},
 			"webp": {
-				"1x": "assets/img/snowboard@1x.webp",
-				"2x": "assets/img/snowboard@2x.webp"
+				"1x": "./snowboard@1x.webp",
+				"2x": "./snowboard@2x.webp"
 			}
 		},
 		"name": "Snowboard 7",
@@ -108,12 +108,12 @@
 		"id": 8,
 		"img": {
 			"jpg": {
-				"1x": "assets/img/snowboard@1x.jpg",
-				"2x": "assets/img/snowboard@2x.jpg"
+				"1x": "./snowboard@1x.jpg",
+				"2x": "./snowboard@2x.jpg"
 			},
 			"webp": {
-				"1x": "assets/img/snowboard@1x.webp",
-				"2x": "assets/img/snowboard@2x.webp"
+				"1x": "./snowboard@1x.webp",
+				"2x": "./snowboard@2x.webp"
 			}
 		},
 		"name": "Snowboard 8",
@@ -123,12 +123,12 @@
 		"id": 9,
 		"img": {
 			"jpg": {
-				"1x": "assets/img/snowboard@1x.jpg",
-				"2x": "assets/img/snowboard@2x.jpg"
+				"1x": "./snowboard@1x.jpg",
+				"2x": "./snowboard@2x.jpg"
 			},
 			"webp": {
-				"1x": "assets/img/snowboard@1x.webp",
-				"2x": "assets/img/snowboard@2x.webp"
+				"1x": "./snowboard@1x.webp",
+				"2x": "./snowboard@2x.webp"
 			}
 		},
 		"name": "Snowboard 9",
