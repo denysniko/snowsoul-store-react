@@ -1,12 +1,18 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { ListItem } from '../ListItem/ListItem'
+import { InputField } from '../InputField/InputField'
 import { filterGoods } from '../../utils'
 import './Store.scss'
 
 export const Store = ({ snowboards }) => {
 	const [query, setQuery] = useState('')
+	const [minPrice, setMinPrice] = useState('')
+	const [maxPrice, setMaxPrice] = useState('')
 
-	const filteredGoods = filterGoods(query, snowboards)
+	// If the goods list is large, reduces unnecessary function calls
+	const filteredGoods = useMemo(() => {
+		return filterGoods(query, snowboards, minPrice, maxPrice)
+	}, [query, snowboards, minPrice, maxPrice])
 
 	const handleChange = e => {
 		setQuery(e.target.value)
@@ -17,14 +23,26 @@ export const Store = ({ snowboards }) => {
 			<div className='container'>
 				<h2 className='store__title'>Snowboards store</h2>
 				<div className='store__wrapper'>
-					<label>
-						<input
-							className='store__search'
+					<div className='store__input-fields'>
+						<InputField
+							ariaLabel='Find a snowboard'
 							placeholder='Find a snowboard'
 							value={query}
 							onChange={handleChange}
 						/>
-					</label>
+						<InputField
+							ariaLabel='Minimum cost'
+							placeholder='Minimum cost'
+							value={minPrice}
+							onChange={e => setMinPrice(e.target.value)}
+						/>
+						<InputField
+							ariaLabel='Maximum cost'
+							placeholder='Maximum cost'
+							value={maxPrice}
+							onChange={e => setMaxPrice(e.target.value)}
+						/>
+					</div>
 					<ul className='store__list'>
 						{filteredGoods.map(s => (
 							<ListItem key={s.id} {...s} />

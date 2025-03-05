@@ -45,7 +45,7 @@ const theme = createTheme({
 		MuiDialogActions: {
 			styleOverrides: {
 				root: {
-					padding: '0 1.125rem 1.125rem',
+					padding: '0.5rem 1.125rem 1.125rem',
 				},
 			},
 		},

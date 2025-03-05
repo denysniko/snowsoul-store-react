@@ -18,20 +18,13 @@
 		@include title-style;
 	}
 
-	&__search {
-		padding: 0.875rem 1rem;
-		height: 50px;
-		font-size: 0.875rem;
-		letter-spacing: -0.03em;
-		color: $white;
-		border: 1px solid rgba(252, 249, 249, 0.1);
-		border-radius: 1rem;
-		background-color: transparent;
-		outline: transparent;
-		transition: border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-		&:focus,
-		&:hover {
-			border: 1px solid $grey;
+	&__input-fields {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+
+		@media (max-width: 768px) {
+			grid-template: repeat(3, auto) / 1fr;
+			gap: 0.5rem;
 		}
 	}
 
